@@ -12,8 +12,9 @@ function walk(hashes, key_fn, find_fn, cmp_fn, next_fn) {
     if(close) {
       hashes = 
       seen = null
-      return close()
+      return ready(close === true ? null : close)
     }
+
     if(!hashes.length) {
       return ready()
     }

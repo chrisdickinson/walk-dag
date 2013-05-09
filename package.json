@@ -1,0 +1,29 @@
+{
+  "name": "walk-dag",
+  "version": "0.0.1",
+  "description": "walk a directed acyclic graph",
+  "main": "index.js",
+  "dependencies": {
+    "git-fs-repo": "~0.0.3",
+    "git-parse-human": "~0.0.1",
+    "tape": "~1.0.2"
+  },
+  "devDependencies": {
+    "tape": "~1.0.2"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chrisdickinson/walk-dag.git"
+  },
+  "keywords": [
+    "dag",
+    "walk"
+  ],
+  "author": "Chris Dickinson <chris@neversaw.us>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "d6f5351956b3da42fb50b9e8ab61bbc01d58a03d"
+}

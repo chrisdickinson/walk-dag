@@ -6,14 +6,14 @@ and a next function.
 ```javascript
   var walk = dag(['HASH1', 'HASH2'], key, find, cmp, next)
 
-  walk(function(err, data) {
+  walk(null, function(err, data) {
     // data === undefined if no more items
   })
 ```
 
 ## API
 
-#### dag([key list], key_function, find_function, comparison_function, next_function) -> fn(ready)
+#### dag([key list], key_function, find_function, comparison_function, next_function) -> fn(close, ready)
 
 create a dag walker using the following definitions:
 

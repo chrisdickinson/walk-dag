@@ -15,7 +15,7 @@ test('test that dag-walk works as expected', function(assert) {
   iter()
 
   function iter() {
-    walk(function(err, data) {
+    walk(null, function(err, data) {
       if(err) throw err
 
       if(!data) {

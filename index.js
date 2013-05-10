@@ -6,6 +6,10 @@ function walk(hashes, key_fn, find_fn, cmp_fn, next_fn) {
 
   hashes = hashes.slice()
 
+  walker.saw = function(key) {
+    seen[key] = true
+  }
+
   return walker
 
   function walker(close, ready) {

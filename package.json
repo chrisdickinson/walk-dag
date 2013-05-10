@@ -1,6 +1,6 @@
 {
   "name": "walk-dag",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "walk a directed acyclic graph",
   "main": "index.js",
   "dependencies": {
